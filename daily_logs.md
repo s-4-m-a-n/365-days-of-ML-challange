@@ -56,15 +56,6 @@ In addition with the, I will be using ChatGPT, medium articles, and stackoverflo
 # Day 2:
 🎯 day 2 of #365daysofML
 
-🔥 Tensorflow from basic to advance:
----
-TensorFlow is an open-source library developed by Google for numerical computation and machine learning tasks. It provides a comprehensive ecosystem of tools, libraries, and resources that facilitate the development and deployment of machine learning models.
-
-🌐 Resources
----
-I am using official documentation of the tensorflow.
-In addition with the, I will be using ChatGPT, medium articles, and stackoverflow to get in-depth insight more precisely.
-
 ✅ Daily logs
 ---
 - learned about gradient and automatic differentiation.
@@ -79,7 +70,8 @@ In addition with the, I will be using ChatGPT, medium articles, and stackoverflo
  - Tensorflow uses reverse auto differentiation to automatically compute the gradient of a function.
  - tf.GradientTape is a powerful API that allows you to compute gradients of operations with respect to variables.
  - what will happen when we assign a new value to the variable and execute the tape.gradient()?
-    - The persistence feature allows you to compute multiple gradients within the same tape context, but it doesn't retain information about changes to variables made after the initial gradient computation.
+    - The persistence feature allows you to compute multiple gradients within the same tape context, 
+    but it doesn't retain information about changes to variables made after the initial gradient computation.
     - TensorFlow's gradient tape records operations in a forward pass and uses those recorded operations to compute gradients during the backward pass. Once you have executed tape.gradient(), the tape is "consumed," and it no longer retains information about subsequent changes to variables.
 
 - A model is, abstractly:
@@ -92,15 +84,52 @@ In addition with the, I will be using ChatGPT, medium articles, and stackoverflo
 - TensorFlow can run saved models without the original Python objects.
 - TensorFlow needs to know how to do the computations described in Python, but without the original code. To do this, you can make a graph.
 
+# Day 3
+🎯 day 2 of #365daysofML
 
-🔗  Github Repository: https://github.com/s-4-m-a-n/365-days-of-ML-challange/tree/main/tensorflow%20from%20basic%20to%20advance
-
-
-#365daysofMLchallange
-#machinelearning
-#deeplearning
-#MLOps
-#tensorflow2
-#keras
+✅ Daily logs
+---
+- learned about distributed training in tensorflow.
+- learned about training loops
+- learning various tf.math operations
 
 
+🔑 Keypoints
+
+- There are two approaches for distributed training that includes data parallelism and model parallelism.
+- Synchronous distributed training can be done in a single where multiple GPUs are available using MirroredStrategy.
+- On the other hand, MultiWorkerMirroredStrategy performs synchronous training on multiple workers or devices (either on GPUs or CPUs) 
+- Federated Learning is a distributed machine learning approach that enables training models on decentralized data sources without the need for centralized data collection. It aims to address privacy concerns associated with sharing sensitive data while still allowing for model training and improvement.
+
+- tf.GradientTape() records the operations involving tensors within its context, and when you call tape.gradient() with a target value and a list of variables, it uses the recorded operations to compute the gradients of the target with respect to the variables.
+- Note that, tf.GradientTape() context and the tf.function-decorated function operate independently.
+
+# Day 4
+🎯 day 4 of #365daysofML
+Keras is the high-level API of the TensorFlow platform. It provides an approachable, highly-productive interface for solving machine learning (ML) problems, with a focus on modern deep learning. Keras covers every step of the machine learning workflow, from data processing to hyperparameter tuning to deployment. It was developed with a focus on enabling fast experimentation.
+
+
+✅ Daily logs
+---
+- learned about keras Layer and Model class
+- learned different approaches to create models in keras which includes Sequential, function API and subclass method
+- Understood upsampling and transpose convolution layers.
+
+🔑 Keypoints
+
+- keras.layers.Layers is inherited from the base class tf.Module and ketas.Model is inherited from the base class keras.layers.Layers
+- Input layers is not mandatory in Sequential model, but if you want to view the model summary, then you should add it.
+- A Sequential model is appropriate for a plain stack of layers where each layer has exactly one input tensor and one output tensor.
+- Once a Sequential model has been built, it behaves like a Functional API model. This means that every layer has an input and output attribute.
+- KerasTensors are used within the Keras API to define the inputs, outputs, and intermediate layers of a neural network model.
+- While a regular TensorFlow tensor is a general-purpose tensor used in TensorFlow computations, 
+  a KerasTensor is a specialized tensor object used within the Keras API, providing additional capabilities 
+  such as automatic shape inference and automatic differentiation.
+- The Keras functional API is a way to create models that are more flexible than the keras.Sequential API. The functional API can handle models with non-linear topology, shared layers, and even multiple inputs or outputs.
+- Functional API can be used to use the same graph of layers to define multiple models.
+- In function API, input layer is mandatory, however you can pass None for the input shape (at least last dim value should be provided i.e num of channal for CNN) to create dynamic input model.
+- A model can contain sub-models (since a model is just like a layer). A common use case for model nesting is ensembling. For example, here's how to ensemble a set of models into a single model that averages their predictions
+- The functional API makes it easy to manipulate multiple inputs and outputs. This cannot be handled with the Sequential API.
+- Another good use for the functional API are models that use shared layers. Shared layers are layer instances that are reused multiple times in the same model -- they learn features that correspond to multiple paths in the graph-of-layers.
+
+- All models in the keras API can interact with each other, whether they're Sequential models, functional models, or subclassed models that are written from scratch.
