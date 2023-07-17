@@ -133,3 +133,27 @@ Keras is the high-level API of the TensorFlow platform. It provides an approacha
 - Another good use for the functional API are models that use shared layers. Shared layers are layer instances that are reused multiple times in the same model -- they learn features that correspond to multiple paths in the graph-of-layers.
 
 - All models in the keras API can interact with each other, whether they're Sequential models, functional models, or subclassed models that are written from scratch.
+
+# day 5
+
+🎯 day 5 of #365daysofML
+loss is an optimization criterion used during training to adjust the model's parameters, while metrics are evaluation measures used to assess the model's performance on unseen data or in real-world scenarios.
+
+📝 Message
+I was quite busy today, thus, haven't got much time to get engaged in learning.
+
+✅ Daily logs
+---
+- learned about different methods to create custom loss function in keras
+   - Function based: This method involves creating a function that accepts inputs y_true and y_pred.  
+   - Subclassing based: This method allows to pass parameters beside y_true and y_pred
+   - Loss Function Wrapper: define loss function as a method, and use the LossFunctionWrapper to turn it into a class
+   - Nasted function (not mentioned in the official documentation): Alternative to the Subclassing based custom loss function.
+
+- learned about how to create custom metrics in keras
+  - we can easily create custom metrics by subclassing the tf.keras.metrics.Metric class.
+
+🌐 Resources
+I am using official documentation of the tensorflow. In addition to that I will be using ChatGPT, medium articles, and stackoverflow to get in-depth insight.
+
+🔗 Github Repo: https://github.com/s-4-m-a-n/365-days-of-ML-challange/tree/main/keras%20basic%20to%20advance
