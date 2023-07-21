@@ -157,3 +157,41 @@ I was quite busy today, thus, haven't got much time to get engaged in learning.
 I am using official documentation of the tensorflow. In addition to that I will be using ChatGPT, medium articles, and stackoverflow to get in-depth insight.
 
 🔗 Github Repo: https://github.com/s-4-m-a-n/365-days-of-ML-challange/tree/main/keras%20basic%20to%20advance
+
+
+# day 6 & 7
+🎯 day 6 & 7 of #365daysofML
+
+Binary logistic regression is a type of regression analysis used when the dependent variable (the outcome) is binary or dichotomous, meaning it can take only two possible values (e.g., yes/no, true/false, 0/1). Where as, Multiclass logistic regression, also known as softmax regression, is an extension of binary logistic regression to handle multiple classes (more than two) in the dependent variable.
+
+📝 Message
+I have decided to implement the logistic regression model to classify image using tensorflow core because of the two main reasons:
+1. my ultimate goal is to implement computer vision and NLP research papers for which the core understanding of tensorflow and keras may needed
+2. implementation of backpropagation using symbolic differentiation is not that efficient and is more complex task, specially when you are going to implement complex deeplearning architecture. 
+
+During this implementation, I have encountered the vanishing and exploding gradient problems due to sigmoid activation function and weight initialization strategy respectively. I am going to make a saperate notebook to cover this scenario. 
+
+
+✅ Daily logs
+---
+- have implemented multiclass logistic regression to classify MNIST dataset using tensorflow core.
+- have implemented binary logistic regression to classify the digit 0 and 1 of the MNIST dataset using tensorflow core
+- Understood and handled the vanishing and exploding problem
+
+🔗 Github Repo: https://github.com/s-4-m-a-n/365-days-of-ML-challange/tree/main/architecture%20implementations/Logistic%20Regression
+
+# day 8
+One important characteristic of the sigmoid function's derivative is that as the input (x) becomes very large or very small, the derivative approaches 0. 
+This phenomenon is known as the "vanishing gradient" problem. It can hinder the learning process in deep neural networks, 
+making it challenging for the network to update weights in earlier layers effectively.
+
+
+📝 Message
+Vanishing gradient problem is one of the problem we can face in deep neural networks. I have used two activation function i.e sigmoid and softmax in a multiclass logistic regression to cause a vanishing gradient problem. Note that in practice we will never use two activation function simultaneously in a same layer, I have done it to mimic (at some level) the deep neural network using logistic regression. I have no idea if it is mathematically making any sense or not, the main purpose is to analyze and understand the model and its outputs as well as the impact of weight initialization technique.
+
+
+✅ Daily logs
+---
+- performed detailed analysis on vanishing gradient problem due to sigmoid function and weight initialization strategy
+
+🔗 Github Repo: https://github.com/s-4-m-a-n/365-days-of-ML-challange/blob/main/architecture%20implementations/Logistic%20Regression/Vanishing%20Gradient%20problem.ipynb
