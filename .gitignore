@@ -163,3 +163,9 @@ logs/
 log/
 **/logs/
 **/log/
+
+kaggle.json
+
+**/*.zip
+**/*.csv
+**/*.sqlite
