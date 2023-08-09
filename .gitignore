@@ -166,6 +166,7 @@ log/
 
 kaggle.json
 
+../dataset/
 **/*.zip
 **/*.csv
 **/*.sqlite
