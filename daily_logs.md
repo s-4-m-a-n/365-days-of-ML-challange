@@ -195,3 +195,64 @@ Vanishing gradient problem is one of the problem we can face in deep neural netw
 - performed detailed analysis on vanishing gradient problem due to sigmoid function and weight initialization strategy
 
 🔗 Github Repo: https://github.com/s-4-m-a-n/365-days-of-ML-challange/blob/main/architecture%20implementations/Logistic%20Regression/Vanishing%20Gradient%20problem.ipynb
+
+
+# day 11
+Generative AI and Large Language Model (LLM) are specifically a general purpose technology, similar to other general purpose technologies like deeplearning and electricity.
+
+Recommendation System is a system that predicts ratings or preferences that a user might give to an item. So, a recommender system is recommending things to people based on their past behavior and the behavior of other people.
+
+📝 Message
+During the previous week, I was engaged in travel, limiting my availability to delve into topics related to Machine Learning. In the present week, my objective is to successfully complete the "Generative AI with Large Language Models" course, available on Coursera through the collaborative efforts of deeplearning.ai and AWS. Simultaneously, I am immersing myself in the study of recommendation systems, as part of my ongoing learning endeavors.
+
+✅ Daily logs
+- completed the first week material of the generative AI with LLMs course
+- Implementing CNN from scratch
+- Covered some basic topic of recommendation system including evaluation metrics and challenges.
+
+🔗 Github Repo: https://github.com/s-4-m-a-n/365-days-of-ML-challange/tree/main/recommendation%20system
+
+
+🔑 Keypoints
+- Prompt is the input given to the LLM, where as completion is the output given by the model.
+- The act of using model to generate text is known as inference.
+- The space or memory that is available to the prompt is called context window.
+- Prompt engineering is crafting a clear and specific question or instruction to get the desired information from a LLM. 
+ It is about finding the right way to ask so that model understands what you want and provides a relivant answer.
+- Providing examples inside the context window is called in-context learning. In zero-shot inference, no example is provided, in one-shot inference, one example is provided and in few-shot, few examples are provided.
+- Variants of Transformer architecture includes:
+   - **Encoder-only models (AutoEncoding model)**
+      - they are pretrained using mask language modeling (MLM)
+      - train objective: predict the masked token
+      - Good usecases: sentiment analysis, NER, word classidication
+      - Examples: BERT, ROBERTA
+   - **Decoder-only models (AutoRegressive model)**
+      - they are pretrained using Casual Language Modeling (CLM)
+      - train objective: predict next token base on the previous sequence of tokens
+      - Good usecases: text generation
+      - examples: GPT, BLOOM
+   - **Encoder-Decoder model (Sequence-to-sequence model)**:
+      - they are pretrained using span corruption
+         
+         ``the | teacher | <mask\> | <mask\>| student``
+         
+         ``the | teacher |       <x\>        | student``
+      - train objective: reconstruct span 
+         
+         ``<x\> | teaches | the |``
+      - Good usecases: translation, Text summarization, question answering
+      - Examples: T5, BART (not BERT) 
+
+
+# day 12 & 13
+Fine-tuning, in the context of machine learning, refers to the process of taking a pre-trained model and training it further on a specific task or dataset to improve its performance on that task. Fine-tuning is commonly used in transfer learning, where knowledge gained from solving one problem is applied to a related problem.
+
+📝 Message
+Did not get much part of the reinforcement learning, so will revise the week 3 once I cover fundamental topics of reinforcement learning.
+I Will add keypoints tomorrow. 
+
+✅ Daily logs
+- completed the the generative AI with LLMs course
+
+
+🔗 Github Repo: https://github.com/s-4-m-a-n/365-days-of-ML-challange/tree/main/recommendation%20system
