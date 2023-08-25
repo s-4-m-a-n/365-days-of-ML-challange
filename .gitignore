@@ -170,3 +170,9 @@ kaggle.json
 **/*.zip
 **/*.csv
 **/*.sqlite
+**/*.mp4
+**/*.avi
+**/*.jpg
+**/*.jpeg
+**/model/
+**/clip_vit_base_model/
