@@ -42,10 +42,10 @@ In addition with the, I will be using ChatGPT, medium articles, and stackoverflo
 - tf.function can be used to create a graph in tensorflow.
 - tf.function uses a library called AutoGraph (tf.autograph) to convert Python code into graph-generating code.
  
-🔗  Github Repository: https://github.com/s-4-m-a-n/365-days-of-ML-challange/tree/main/tensorflow%20from%20basic%20to%20advance
+🔗  Github Repository: https://github.com/s-4-m-a-n/365-days-of-ML-challenge/tree/main/tensorflow%20from%20basic%20to%20advance
 
 
-#365daysofMLchallange
+#365daysofMLchallenge
 #machinelearning
 #deeplearning
 #MLOps
@@ -260,3 +260,12 @@ I Will add keypoints tomorrow.
 
 
 # Day 14
+Its been a long since I hold this 365 days of ML challenge, so I decided to continue it from where I left. I am parallely doing 30 days of DevOPs challenge too 
+
+📝 Message
+- 
+
+✅ Daily logs
+- Today I have implemented language of a sentence classifier using character level simple RNN
+- I have also implemented simpleRNN and DeepRNN from scratch using pytorch
+
