@@ -156,7 +156,7 @@ I was quite busy today, thus, haven't got much time to get engaged in learning.
 🌐 Resources
 I am using official documentation of the tensorflow. In addition to that I will be using ChatGPT, medium articles, and stackoverflow to get in-depth insight.
 
-🔗 Github Repo: https://github.com/s-4-m-a-n/365-days-of-ML-challange/tree/main/keras%20basic%20to%20advance
+🔗 Github Repo: https://github.com/s-4-m-a-n/365-days-of-ML-challenge/tree/main/keras%20basic%20to%20advance
 
 
 # day 6 & 7
@@ -178,7 +178,7 @@ During this implementation, I have encountered the vanishing and exploding gradi
 - have implemented binary logistic regression to classify the digit 0 and 1 of the MNIST dataset using tensorflow core
 - Understood and handled the vanishing and exploding problem
 
-🔗 Github Repo: https://github.com/s-4-m-a-n/365-days-of-ML-challange/tree/main/architecture%20implementations/Logistic%20Regression
+🔗 Github Repo: https://github.com/s-4-m-a-n/365-days-of-ML-challenge/tree/main/architecture%20implementations/Logistic%20Regression
 
 # day 8
 One important characteristic of the sigmoid function's derivative is that as the input (x) becomes very large or very small, the derivative approaches 0. 
@@ -194,7 +194,7 @@ Vanishing gradient problem is one of the problem we can face in deep neural netw
 ---
 - performed detailed analysis on vanishing gradient problem due to sigmoid function and weight initialization strategy
 
-🔗 Github Repo: https://github.com/s-4-m-a-n/365-days-of-ML-challange/blob/main/architecture%20implementations/Logistic%20Regression/Vanishing%20Gradient%20problem.ipynb
+🔗 Github Repo: https://github.com/s-4-m-a-n/365-days-of-ML-challenge/blob/main/architecture%20implementations/Logistic%20Regression/Vanishing%20Gradient%20problem.ipynb
 
 
 # day 11
@@ -210,7 +210,7 @@ During the previous week, I was engaged in travel, limiting my availability to d
 - Implementing CNN from scratch
 - Covered some basic topic of recommendation system including evaluation metrics and challenges.
 
-🔗 Github Repo: https://github.com/s-4-m-a-n/365-days-of-ML-challange/tree/main/recommendation%20system
+🔗 Github Repo: https://github.com/s-4-m-a-n/365-days-of-ML-challenge/tree/main/recommendation%20system
 
 
 🔑 Keypoints
@@ -255,7 +255,7 @@ I Will add keypoints tomorrow.
 - completed the the generative AI with LLMs course
 
 
-🔗 Github Repo: https://github.com/s-4-m-a-n/365-days-of-ML-challange/tree/main/recommendation%20system
+🔗 Github Repo: https://github.com/s-4-m-a-n/365-days-of-ML-challenge/tree/main/recommendation%20system
 
 
 
