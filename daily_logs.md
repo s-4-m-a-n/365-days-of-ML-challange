@@ -269,3 +269,9 @@ Its been a long since I hold this 365 days of ML challenge, so I decided to cont
 - Today I have implemented language of a sentence classifier using character level simple RNN
 - I have also implemented simpleRNN and DeepRNN from scratch using pytorch
 
+
+# Day 15
+
+✅ Daily logs
+- Today I have implemented simple LSTM, DeepLSTM and Bidrectional LSTM from scratch using pytorch
+- Haven't got time to document it, will do that in a holiday 
