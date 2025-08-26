@@ -275,3 +275,10 @@ Its been a long since I hold this 365 days of ML challenge, so I decided to cont
 ✅ Daily logs
 - Today I have implemented simple LSTM, DeepLSTM and Bidrectional LSTM from scratch using pytorch
 - Haven't got time to document it, will do that in a holiday 
+
+
+# Day 16
+
+✅ Daily logs
+- Today I have implemented simple GRU
+- Also created a toy task to predict next number from the sequence to test the sanity of the implemented model 
