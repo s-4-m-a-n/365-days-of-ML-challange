@@ -282,3 +282,9 @@ Its been a long since I hold this 365 days of ML challenge, so I decided to cont
 ✅ Daily logs
 - Today I have implemented simple GRU
 - Also created a toy task to predict next number from the sequence to test the sanity of the implemented model 
+
+# Day 17
+
+✅ Daily logs
+- Today I did research on MultiModal Large Language Model with 3D scene understanding as well as few other vision transformer architectures
+- Did a detailed research on Multimodal Few-Shot Learning with Frozen Language Models https://arxiv.org/pdf/2106.13884, probably will implement this architecture in next week.
