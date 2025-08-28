@@ -288,3 +288,9 @@ Its been a long since I hold this 365 days of ML challenge, so I decided to cont
 ✅ Daily logs
 - Today I did research on MultiModal Large Language Model with 3D scene understanding as well as few other vision transformer architectures
 - Did a detailed research on Multimodal Few-Shot Learning with Frozen Language Models https://arxiv.org/pdf/2106.13884, probably will implement this architecture in next week.
+
+# Day 18
+
+✅ Daily logs
+- Today also I did research on MultiModal Large Language Model with 3D scene understanding as well as few other vision transformer architectures
+- I also worked on writing detail information about RNN for medium article.
