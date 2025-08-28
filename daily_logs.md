@@ -294,3 +294,4 @@ Its been a long since I hold this 365 days of ML challenge, so I decided to cont
 ✅ Daily logs
 - Today also I did research on MultiModal Large Language Model with 3D scene understanding as well as few other vision transformer architectures
 - I also worked on writing detail information about RNN for medium article.
+
