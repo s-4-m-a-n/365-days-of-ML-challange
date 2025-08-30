@@ -295,3 +295,9 @@ Its been a long since I hold this 365 days of ML challenge, so I decided to cont
 - Today also I did research on MultiModal Large Language Model with 3D scene understanding as well as few other vision transformer architectures
 - I also worked on writing detail information about RNN for medium article.
 
+# Day 19
+
+✅ Daily logs
+- Today I learned about vision projector, CLIP architecture, mixture-of-experts and instruction fine-tunning (will prepare a proper documentation in these topics in future)
+- Completed the documentation of RNN architecture
+
